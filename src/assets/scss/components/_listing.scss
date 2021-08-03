@@ -1,0 +1,22 @@
+.listing {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include screen(small) {
+    padding: 1rem;
+  }
+
+  ul {
+    list-style-type: circle;
+
+    @include screen(small) {
+      padding: 1rem;
+    }
+
+    li {
+      padding: 0.5rem 0;
+    }
+  }
+}
